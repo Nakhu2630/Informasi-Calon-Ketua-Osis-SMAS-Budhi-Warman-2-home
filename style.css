@@ -1,0 +1,257 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #C4D7FF;
+    margin-bottom: 60px; 
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.demenu {
+    background-color: #87A2FF;
+    width: 100%;
+    padding: 10px 0; 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Mengatur isi agar berada di tengah */
+    align-items: center;
+    position: relative; /* Membuat posisi logo pertama menjadi absolut */
+}
+
+.lidesain {
+    list-style-type: none;
+    position: absolute; /* Mengunci posisi logo di kiri */
+    left: 10px; /* Jarak dari tepi kiri */
+    display: flex; /* Mengatur ikon dan teks tampil secara horizontal */
+    align-items: center;
+}
+
+.text-icon {
+    margin-left: 10px; /* Memberi jarak antara ikon dan teks */
+    font-size: 18px;
+    color: white;
+}
+
+.homelogo, .logo1, .logo2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+
+.menu3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.demenu3 {
+    background-color: #87A2FF;
+    width: 100%;
+    padding: 10px 0; 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Mengatur isi agar berada di tengah */
+    align-items: center;
+    position: relative; /* Membuat posisi logo pertama menjadi absolut */
+}
+
+.lidesain3 {
+    list-style-type: none;
+    position: absolute; /* Mengunci posisi logo di kiri */
+    left: 10px; /* Jarak dari tepi kiri */
+    display: flex; /* Mengatur ikon dan teks tampil secara horizontal */
+    align-items: center;
+}
+
+.text-icon {
+    margin-left: 10px; /* Memberi jarak antara ikon dan teks */
+    font-size: 18px;
+    color: white;
+}
+
+.homelogo3, .logo3, .logo3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    font-size: 25px;
+    width: 300px; 
+    margin: 0 auto; 
+}
+
+.calon {
+    width: 270px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    text-align: justify;
+}
+
+.grid-container1 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    width: 100%;
+    max-width: 1200px;
+}
+
+.grid-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.Text-Profile {
+    width: 850px; /* Adjust width as needed */
+    height: 450px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    margin: auto;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: left; /* Center text inside the box */
+}
+
+.data-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.ketos1 {
+    margin-right: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.main-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-rows: auto auto; 
+    width: 100%;
+    max-width: 1200px;
+}
+
+.grid-item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+
+.grid-item2:nth-child(3) {
+    grid-column: 1 / -1;
+}
+
+.this-footer {
+    color: #FBCDA1;
+    text-align: center;
+    position: fixed; /* Tetap fixed jika ingin footer berada di bawah */
+    width: 100%;
+    bottom: 0;
+    z-index: 10; /* Pastikan footer tidak menutupi konten di atasnya */
+}
+
+.h1-footer {
+    font-size: 18px; 
+    color: #87A2FF;
+    background-color: #F5F5F7;
+    padding: 10px 0; 
+}
+
+
